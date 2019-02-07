@@ -1,0 +1,22 @@
+.form {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.form input {
+    width: 500px;
+    max-width: 90%;
+    line-height: 1.21em;
+    padding: .6em 1em;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    outline: 0;
+    color: grey;
+    text-align: left;
+}
+
+.form input:focus {
+    border-color: lightblue;
+}
